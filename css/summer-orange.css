@@ -19,7 +19,7 @@ a, a:hover, a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: #f58220;
 	width: 90px;
-	min-height: 90px;
+	height: 90px;
 	text-align: center;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
@@ -187,7 +187,7 @@ a, a:hover, a:focus {
 
 /* === Contact === */
 #contact-section {
-	background-color: #f58220;
+	background-color: rgba(255,255,255, 0.8);
 }
 #contact-section .contact .contact-form button {
 	background-color: #0073bb;
@@ -222,10 +222,16 @@ a, a:hover, a:focus {
 	background: #f58220;
 	color: #fff;
 }
-.btn-default:hover {
+.btn-blue, .btn-blue:focus, .btn-blue.focus{
+	background: #0073bb;
 	color: #fff;
-	background: #F28F38;
 }
+
+.btn-blue:hover{
+	background: #e6e6e6;
+	color: #333;
+}
+
 .btn-primary, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	background-color: #3078B3;
 	color: #FFF;

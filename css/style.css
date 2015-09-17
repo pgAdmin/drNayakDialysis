@@ -464,7 +464,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .testimonial .cover {
-	background-color: rgba(0, 7, 11, 0.87);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 .testimonial-inner {
 	position: relative;
@@ -808,12 +808,13 @@ ul.social-list li a i {
 /* ===== Begin contact ===== */
 #contact-section {
 	position: relative;
+	color: #f58220;
 }
 #contact-section h4 {
 	font-weight: 400;
 }
 #contact-section .cover {
-	background-color: #F58220;
+	background-color: transparent;
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
@@ -827,9 +828,10 @@ ul.social-list li a i {
 #contact-section .contact .contact-form button {
 	width: 100%;
 	height: 40px;
+	color: #fff;
 }
 #contact-section .contact .contact-form button:hover {
-	color: #fff;
+	color: #0073bb;
 }
 #contact-section .contact .form-control {
 	background-color: rgba(255, 255, 255, 0.8);
@@ -1172,4 +1174,18 @@ p.subtitle {
 .circles{
 	height: 300px;
 	width: 300px;
+}
+
+.panel-circle{
+	border-radius: 50%;
+	height: 280px;
+	width: 280px;
+	border: #f58220 4px solid !important;
+}
+
+.panel-circle-blue{
+	border-radius: 50%;
+	height: 280px;
+	width: 280px;
+	border: #0073bb 4px solid !important;
 }
