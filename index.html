@@ -23,49 +23,7 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Icons -->
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/owl.theme.css">
-        <script>
-            var map;
-            var infowindow;
 
-            function initMap() {
-              var pyrmont = {lat: 17.3919209, lng: 78.4268278};
-
-              map = new google.maps.Map(document.getElementById('map'), {
-                center: pyrmont,
-                zoom: 18
-              });
-
-              infowindow = new google.maps.InfoWindow();
-
-              var service = new google.maps.places.PlacesService(map);
-              service.nearbySearch({
-                location: pyrmont,
-                radius: 100,
-                types: ['store']
-              }, callback);
-            }
-
-            function callback(results, status) {
-              // if (status === google.maps.places.PlacesServiceStatus.OK) {
-              //   for (var i = 0; i < results.length; i++) {
-              //     createMarker(results[i]);
-              //   }
-              // }
-            }
-
-            function createMarker(place) {
-              var placeLoc = place.geometry.location;
-              var marker = new google.maps.Marker({
-                map: map,
-                position: place.geometry.location
-              });
-
-              google.maps.event.addListener(marker, 'click', function() {
-                infowindow.setContent(place.name);
-                infowindow.open(map, this);
-              });
-            }
-        </script>
     	<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -126,13 +84,11 @@
             <!-- ========= END HEADER =========-->
             
             
-            
-            
         	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="1">
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5">
 				
 				<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.6">
+					<div class="caption text-center text-white" data-stellar-ratio="0.6" style="">
 
 						<div id="owl-intro-text" class="owl-carousel">
 							<div class="item" style="background-image: url(img/slide-1.jpg);">
@@ -162,7 +118,7 @@
                 
                 
             <!-- Begin about section -->
-			<section id="about-section" class="page bg-style1">
+			<section id="about-section" class="page bg-style1" style="background-color: rgba(255,255,255, 0.8)">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
@@ -221,7 +177,7 @@
               
               
             <!-- Begin Services -->
-            <section id="services-section" class="page text-center">
+            <section id="services-section" class="page text-center" style="background-color: rgba(255,255,255, 0.8)">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
@@ -277,7 +233,7 @@
 
                 
             <!-- Begin prices section -->
-            <section id="prices-section" class="page">
+            <section id="prices-section" class="page" style="background-color: rgba(255,255,255, 0.8)">
 
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
@@ -369,7 +325,7 @@
               
             <!-- Begin testimonials -->
             <section id="testimonial-section">
-                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-color: #fff;">
+                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5">
 
                     <div class="cover"></div>
                     <!-- Begin page header-->
@@ -379,7 +335,27 @@
                                 <h2 style="color: #363940">Locate Us</h2>
                                 <div class="devider"></div>
                             </div>
-                            <div id="map" style="height: 400px; z-index: 100"></div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="contact-info">
+                                        <h4 style="color: #373A41">Our Address</h4>
+                                        <ul class="contact-address">
+                                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; 12-2-718, Nanal Nagar,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X Roads, Toli Chowki,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hyderabad, Telangana, 500008</li>
+                                            <li><i class="fa fa-envelope"></i> contact@drnayakdialysis.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div id="map" style="z-index: 100">
+                                        <img src="img/hospital_map.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="contact-box text-center">FOR APPOINTMENTS PLEASE CALL : +91 - 97013 55100, or +91 - 98853 56897</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- End page header-->
@@ -395,14 +371,13 @@
                                 
                 
             <!-- Begin contact section -->
-			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/map-bg.jpg);">
-            <div class="cover"></div>
+			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5">
             
                  <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                            <h2 style="color: #363940">Contacts</h2>
+                            <h2 style="color: #363940">Contact</h2>
                             <div class="devider"></div>
                         </div>
                     </div>
@@ -412,26 +387,16 @@
                 <div class="contact wow bounceInRight" data-wow-delay="0.4s">
                     <div class="container">
                     	<div class="row">
-                        
-                            <div class="col-sm-6">
-                                <div class="contact-info">
-                                    <h4>Our Address</h4>
-                                    <ul class="contact-address">
-
-			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; 12-2-718, Nanal Nagar,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X Roads, Toli Chowki,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hyderabad, Telangana, 500008</li>
-			                            <li><i class="fa fa-phone"></i>&nbsp; +91 - 97013 55100</li>
-			                            <li><i class="fa fa-print"></i>&nbsp; +91 - 98853 56897</li>
-			                            <li><i class="fa fa-envelope"></i> contact@drnayakdialysis.com</li>
-			                        </ul>
-                                </div>
-                            </div>
-                        
-                        	<div class="col-sm-6">
+                                               
+                        	<div class="col-sm-offset-2 col-sm-8">
                                 <div class="contact-form">
                                 	<h4>Write to us</h4>
                                     <form role="form">
                                         <div class="form-group">
                                             <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="mobile" class="form-control input-lg" placeholder="Mobile Number" required>
                                         </div>
                                         <div class="form-group">
                                             <input type="email" class="form-control input-lg" placeholder="E-mail" required>
@@ -442,7 +407,7 @@
                                         <div class="form-group">
                                             <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
                                         </div>
-                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.4s">Send</button>
                                     </form>
                                 </div>	
                             </div>
@@ -530,7 +495,6 @@
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/smoothscroll.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&callback=initMap" async defer></script>
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>

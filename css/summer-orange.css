@@ -31,6 +31,7 @@ a, a:hover, a:focus {
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover, .navbar-default.navbar-shrink .navbar-nav > li > a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	color: #fff;
+	background-color: #f58220;
 }
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	-webkit-box-shadow: inset 0 3px #fff !important;
@@ -121,7 +122,7 @@ a, a:hover, a:focus {
 
 /* === Text Carousel === */
 #text-carousel-intro-section {
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.8);
 }
 
 
@@ -271,7 +272,4 @@ a, a:hover, a:focus {
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
 	color: #9f3a00;
-}
-
-
 }

@@ -6,6 +6,8 @@ body {
 	height: 100%;
 	font-size: 14px;
 	color: #363940;
+	background-image: url(../img/dr_back.gif);
+    background-repeat: repeat-y;
 }
 body .body {
 	height: 100%;
@@ -21,7 +23,7 @@ body .body {
 }
 .page {
   overflow: hidden;
-  background-color: #fff;
+  //background-color: #fff;
   padding: 50px 0;
 }
 *:focus { 
@@ -264,7 +266,7 @@ section {
 #text-carousel-intro-section .caption {
 	position: relative;
 	top: 50%;
-	margin-top: -70px;
+	margin-top: -170px;
 }
 #text-carousel-intro-section .caption h1 {
 	margin-top: 0;
@@ -814,7 +816,7 @@ ul.social-list li a i {
 	font-weight: 400;
 }
 #contact-section .cover {
-	background-color: transparent;
+	background-color: rgba(255,255,255, 0.8);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
@@ -843,6 +845,7 @@ ul.social-list li a i {
 }
 
 ul.contact-address {
+	color: #363940 !important;
 	float: left;
 	width: 100%;
 	padding: 0;
@@ -975,7 +978,7 @@ p.subtitle {
 	cursor: e-resize;
 }
 .owl-theme .owl-controls {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .owl-theme .owl-controls .owl-page span {
 	background: rgba(0, 0, 0, 0);
@@ -1188,4 +1191,11 @@ p.subtitle {
 	height: 280px;
 	width: 280px;
 	border: #0073bb 4px solid !important;
+}
+
+.contact-box{
+	margin-top: 30px;
+	color: #333;
+	font-size: 25px;
+	font-weight: bold;
 }
