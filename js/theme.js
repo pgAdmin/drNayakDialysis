@@ -195,5 +195,3 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
-
-// Google Map
