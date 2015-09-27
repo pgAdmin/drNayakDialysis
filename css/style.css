@@ -1199,3 +1199,11 @@ p.subtitle {
 	font-size: 25px;
 	font-weight: bold;
 }
+
+.list-circle{
+	list-style-type: disc; 
+}
+
+.list-circle li{
+	list-style-type: disc; 
+}
