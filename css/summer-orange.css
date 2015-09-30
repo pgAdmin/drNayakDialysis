@@ -220,17 +220,24 @@ a, a:hover, a:focus {
 
 /* === Buttons === */
 .btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
+	cursor: default;
 	background: #f58220;
 	color: #fff;
 }
 .btn-blue, .btn-blue:focus, .btn-blue.focus{
+	cursor: default;
 	background: #0073bb;
 	color: #fff;
 }
 
 .btn-blue:hover{
-	background: #e6e6e6;
-	color: #333;
+	background: #0073bb;
+	color: #fff;
+}
+
+.btn-default:hover{
+	background: #f58220;
+	color: #fff;	
 }
 
 .btn-primary, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {

@@ -1207,3 +1207,26 @@ p.subtitle {
 .list-circle li{
 	list-style-type: disc; 
 }
+
+.share-gadget{
+    position: fixed;
+    float: right;
+    margin-left: 96%;
+    margin-top: 20%;
+    z-index: 500;
+}
+
+.share-icon{
+	padding: 10px;
+	background-color: #f58220;
+	color: white;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	font-size: 35px;
+}
+
+.share-icon:hover{
+	background-color: white;
+	color: #f58220;
+}
