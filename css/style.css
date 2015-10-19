@@ -1221,7 +1221,7 @@ p.subtitle {
 .share-gadget{
     position: fixed;
     float: right;
-    margin-left: 96%;
+    right: 0px;
     margin-top: 20%;
     z-index: 500;
 }
@@ -1239,4 +1239,8 @@ p.subtitle {
 .share-icon:hover{
 	background-color: white;
 	color: #f58220;
+}
+
+.mobile-visible{
+	display: none;
 }

@@ -155,20 +155,23 @@
 		border: none;
 	}
 	.navbar-toggle:hover, .navbar-toggle:focus {
-		background-color: rgba(0, 0, 0, 0) !important;
+		background-color: #f58220 !important;
 	}
 
 	.navbar-toggle .icon-bar {
 		height: 3px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #f58220 !important;
 	}
 	.navbar-transparent .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #f58220 !important;
 	}
 	.navbar-inverse .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #f58220 !important;
+	}
+	.icon-bar:hover{
+		background-color: #fff !important;		
 	}
 
 	/* Navbar collapse / links */
@@ -261,6 +264,31 @@
 		display: none !important;
 	}
 
+	.share-gadget{
+	    position: fixed;
+	    float: right;
+	    bottom: 0px;
+	    display: flex;
+	    right: 40%;
+	}
+	.share-icon{
+	    height: 35px;
+	    width: 35px;
+    	font-size: 20px;
+	}
+
+	.mobile-visible{
+		display: inline;
+		text-align: center;
+	}
+	
+	.mobile-center{
+		text-align: center;
+	}
+
+	.mobile-map{
+		width: 100%;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
