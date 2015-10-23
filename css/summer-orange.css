@@ -270,13 +270,13 @@ a, a:hover, a:focus {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
-.navbar-collapse {
-		background-color: #F28F38;
-		border-color: #fff !important;
+	.navbar-collapse {
+		background-color: white;
 	}
-.navbar-default.navbar-shrink .navbar-nav > li.active > a {
-	box-shadow: none !important;
-}
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
-	color: #9f3a00;
+	.navbar-default.navbar-shrink .navbar-nav > li.active > a {
+		box-shadow: none !important;
+	}
+	.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.active > a {
+		color: #9f3a00;
+	}
 }

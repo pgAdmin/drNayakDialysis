@@ -289,6 +289,33 @@
 	.mobile-map{
 		width: 100%;
 	}
+
+	.page-scroll{
+		width: 100% !important;
+		text-align: left !important;
+		background-color: white !important;
+	}
+
+	.page-scroll:hover{
+		width: 100% !important;
+		color: white !important;
+		background-color: #f58220 !important;
+	}
+
+	.nav li a {
+		height: 40px !important;
+	}
+
+	.price-box{
+		margin-left: 8%;
+    	margin-top: 15px;
+    	margin-bottom: 10px;
+	}
+
+	.mobile-price{
+	    width: 65%;
+	    text-align: justify;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
