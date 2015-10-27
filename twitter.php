@@ -19,6 +19,7 @@ $response = array();
 foreach ($j as $key => $value) {
 	$response[] = nl2br($value['text']."<br>");
 }
-header("Content-type: application/json");
-echo json_encode($response, JSON_FORCE_OBJECT);
+$fp = fopen("twitter.json", "w+");
+fwrite($fp, json_encode($response, JSON_FORCE_OBJECT));
+fclose($fp);
 ?>

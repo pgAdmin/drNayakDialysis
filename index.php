@@ -81,7 +81,7 @@
 
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <button type="button" style="background-color: #f58220" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -96,7 +96,7 @@
                             <li><a class="page-scroll ipad-wdth" href="body">Home</a></li>
                             <li><a class="page-scroll ipad-wdth" href="#about-section">Meet the Team</a></li>
                             <li><a class="page-scroll ipad-extnd-wdth" style="width: 130px" href="#services-section">Why Dr. Nayak Dialysis ?</a></li>
-                            <li><a class="page-scroll ipad-extnd-wdth" style="width: 110px" href="#prices-section">Services and Packages</a></li>
+                            <li><a class="page-scroll ipad-extnd-wdth" style="width: 120px" href="#prices-section">Services and Packages</a></li>
                             <li><a class="page-scroll ipad-wdth" href="#testimonial-section">Locate Us</a></li>
                             <li><a class="page-scroll ipad-wdth" href="#contact-section">Contact</a></li>
                         </ul>
@@ -108,7 +108,7 @@
             </header>
             <!-- ========= END HEADER =========-->
             
-            <div class="share-gadget">
+            <div class="share-gadget mobile-hide">
                 <a href="http://facebook.com/" target="_blank"><div class="share-icon"><i class="fa fa-facebook"></i></div></a>
                 <a href="http://twitter.com/drnayakdialysis" target="_blank"><div class="share-icon"><i class="fa fa-twitter"></i></div></a>
                 <a href="http://linkedin.com/" target="_blank"><div class="share-icon"><i class="fa fa-linkedin"></i></div></a>
@@ -156,19 +156,15 @@
 			<section id="about-section" class="page bg-style1" style="background-color: rgba(255,255,255, 0.8)">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
-                    <div class="container">
-                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s"></div>
-                    </div>
                 </div>
                 <!-- End page header-->
-
                 <h1 class="mobile-visible">Meet the Team</h1>
                 <!-- Begin rotate box-1 -->
                 <div class="rotate-box-2-wrapper">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr1.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -181,7 +177,7 @@
                             </div>
 
                             <div class="col-md-3 col-sm-6">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr2.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -193,7 +189,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 ipad-hide">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -205,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 ipad-hide">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic" style="background-color: #0073bb"><img class="circles-about" src="img/dr4.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -219,7 +215,7 @@
                         </div>
                         <div class="row ipad-show">
                             <div class="col-md-3 col-sm-6">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -232,7 +228,7 @@
                             </div>
 
                             <div class="col-md-3 col-sm-6">
-                                <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <div class="rotate-box-2 square-icon text-center">
                                     <span class="rotate-box-icon olympic" style="background-color: #0073bb"><img class="circles-about" src="img/dr4.png"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
@@ -248,9 +244,7 @@
                     </div> <!-- /.container -->
                 </div>
                 <!-- End rotate box-1 -->
-                
-                <div class="extra-space-l"></div>
-                           
+                                           
             </section>
             <!-- End about section -->
               
@@ -314,66 +308,63 @@
                 </div>
                 <!-- End page header-->
 
-                <div class="extra-space-l"></div>
-
                 <!-- Begin prices -->
                 <div class="prices text-center">
                 <h1 class="mobile-visible">Services and Packages</h1>
                     <div class="container">
                         <div class="row">
-                            <div class="price-box col-sm-3 col-xs-12 wow flipInY" data-wow-delay="0.3s">
+                            <div class="price-box col-sm-3">
                                 <div class="panel panel-default panel-circle-blue">
                                     <img class="ipad-prod-img" src="img/s_premium.jpg" />
                                 </div>
                                 <div class="rotate-box-info mobile-price">
                                     <h4 class="text-center">Premium Dialysis</h4>
                                     <div>
-                                        Take advantage of our premium dialysis:<br>
-                                        <ul class="list-circle">
-                                            <li>4 Nephrologist checkups per month</li>
-                                            <li>TV with access to all satellite HD channels</li>
-                                            <li>Free meal and diet counseling</li>
-                                            <li>Dialyzer is reused</li>
-                                        </ul>
-                                        <br>
+                                        <div class="service-detail">
+                                            Take advantage of our premium dialysis:<br>
+                                            <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
+                                            <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
+                                            <i class="fa fa-circle"></i> Free meal and diet counseling<br />
+                                            <i class="fa fa-circle"></i> Dialyzer is reused<br />
+                                        </div>
+                                        <br />
                                         <span class="btn btn-blue">INR 1500 PER SESSION</span>
                                     </div>
                                 </div>                                      
                             </div>
 
-                            <div class="price-box col-sm-3 col-xs-12 wow flipInY" data-wow-delay="0.5s">
+                            <div class="price-box col-sm-3" data-wow-delay="0.5s">
                                 <div class="panel panel-default panel-circle-blue">
                                     <img class="ipad-prod-img" src="img/s_luxury.jpg" />
                                 </div>
                                 <div class="rotate-box-info mobile-price">
                                     <h4 class="text-center">Luxury Dialysis</h4>
                                     <div>
-                                        Sit back and enjoy our luxury dialysis:<br>
-                                        <ul class="list-circle">
-                                            <li>4 Nephrologist checkups per month</li>
-                                            <li>TV with access to all satellite HD channels</li>
-                                            <li>Free meal and diet counseling</li>
-                                            <li>New dialyzer for every session</li>
-                                        </ul>
+                                        <div class="service-detail">
+                                            Sit back and enjoy our luxury dialysis:<br>
+                                            <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
+                                            <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
+                                            <i class="fa fa-circle"></i> Free meal and diet counseling<br />
+                                            <i class="fa fa-circle"></i> New dialyzer for every session<br />
+                                        </div>
                                         <br>
                                         <span class="btn btn-blue">INR 2500 PER SESSION</span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <div class="price-box col-sm-3 col-xs-12 wow flipInY" data-wow-delay="0.7s">
+                            <div class="price-box col-sm-3" data-wow-delay="0.7s">
                                 <div class="panel panel-default panel-circle">
                                     <img class="ipad-prod-img" src="img/s_premium_p.jpg" />
                                 </div>
                                 <div class="rotate-box-info mobile-price">
                                     <h4 class="text-center">Premium Package</h4>
                                     <div>
-                                        <ul class="list-circle">
-                                            <li>Pay once and forget about it !</li>
-                                            <li>Prepaid package</li>
-                                            <li>Pay for 10 sessions and get 11th one free</li>
-                                        </ul>
-                                        <br>
+                                        <div class="service-detail">
+                                            <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                            <i class="fa fa-circle"></i> Prepaid package<br />
+                                            <i class="fa fa-circle"></i> Pay for 10 sessions and get 11th one free<br />
+                                        </div>
                                         <br>
                                         <br>
                                         <br>
@@ -382,18 +373,18 @@
                                 </div>
                             </div>
                             
-                            <div class="price-box col-sm-3 col-xs-12 wow flipInY" data-wow-delay="0.9s">
+                            <div class="price-box col-sm-3" data-wow-delay="0.9s">
                                 <div class="panel panel-default panel-circle">
                                     <img class="ipad-prod-img" src="img/s_luxury_p.jpg" />
                                 </div>
                                 <div class="rotate-box-info mobile-price">
                                     <h4 class="text-center">Luxury Package</h4>
                                     <div>
-                                        <ul class="list-circle">
-                                            <li>Pay once and forget about it !</li>
-                                            <li>Prepaid package</li>
-                                            <li>Pay for 14 dialysis sessions and get 3000/- off</li>
-                                        </ul>
+                                        <div class="service-detail">
+                                            <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                            <i class="fa fa-circle"></i> Prepaid package<br />
+                                            <i class="fa fa-circle"></i> Pay for 14 dialysis sessions and get 3000/- off<br />
+                                        </div>
                                         <br>
                                         <br>
                                         <br>
@@ -506,30 +497,31 @@
                 <div class="footer-top">
                 	<div class="container">
                     	<div class="row wow bounceInLeft" data-wow-delay="0.4s">
-
-                            <div class="col-sm-12 col-md-4" id="tweetbox1">
-                                <h4>Recent Tweets</h4>
-                                <div class="single-tweet">
-                                    <div class="tweet-content"><span>@drnayakdialysis</span> Excepteur sint occaecat cupidatat non proident</div>
-                                    <div class="tweet-date">1 Hour ago</div>
-                                </div>
-                                <div class="single-tweet">
-                                    <div class="tweet-content"><span>@drnayakdialysis</span> Excepteur sint occaecat cupidatat non proident uku shumaru</div>
-                                    <div class="tweet-date">1 Hour ago</div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-12 col-md-4" id="tweetbox2">
-                            </div>
-
-                            <div class="col-sm-12 col-md-4" id="tweetbox3">
-                            </div>
+                        <?php
+                            $twitter_data = file_get_contents("twitter.json");
+                            function createTweet($data){
+                                return "\t\t\t\t<div class=\"single-tweet\">\n\t\t\t\t\t<div class=\"tweet-content\"><span>@drnayakdialysis</span> ".$data."</div>\n\t\t\t\t</div>";
+                            }
                             
+                            $tweets = json_decode($twitter_data, JSON_FORCE_OBJECT);
+                            $result = "<div class=\"col-sm-12 col-md-4\" id=\"tweetbox1\">\n\t\t\t\t<h4>Recent Tweets</h4>\n";
+                            $result .= createTweet($tweets[0]) ."\n". createTweet($tweets[1]) . "\n\t\t\t</div>\n\t\t\t";
+                            $result .= "<div class=\"col-sm-12 col-md-4\" id=\"tweetbox2\">\n\t";
+                            $result .= createTweet($tweets[2]) ."\n". createTweet($tweets[3]) . "\n\t\t\t</div>\n\t\t\t";
+                            $result .= "<div class=\"col-sm-12 col-md-4\" id=\"tweetbox3\">\n\t";
+                            $result .= createTweet($tweets[4]) . "\n\t\t\t</div>\n";
+                            echo $result;
+                        ?>
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->
                 </div>
                 
                 <div class="footer">
+                    <div class="mobile-visible share-social">
+                        <a href="http://facebook.com/" target="_blank"><div class="share-icon"><i class="fa fa-facebook"></i></div></a>
+                        <a href="http://twitter.com/drnayakdialysis" target="_blank"><div class="share-icon"><i class="fa fa-twitter"></i></div></a>
+                        <a href="http://linkedin.com/" target="_blank"><div class="share-icon"><i class="fa fa-linkedin"></i></div></a>
+                    </div>
                     <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
                         <p class="copyright">Copyright &copy; 2015 - Designed By Excelsior</p>
                     </div>
@@ -540,8 +532,7 @@
 
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
                                               
-        </div><!-- body ends -->
-        
+        </div><!-- body ends -->        
         
 
         <!-- Plugins JS -->
@@ -549,27 +540,11 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/jquery.stellar.min.js"></script>
-		<script src="js/wow.min.js"></script>
         <script src="js/waypoints.min.js"></script>
 		<script src="js/isotope.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/smoothscroll.js"></script>
-        <script>
-
-            $.get("twitter.php", function(data) {
-                result = "<h4>Recent Tweets</h4>";
-                result += '<div class="single-tweet"><div class="tweet-content"><span>@drnayakdialysis</span> '+data[0]+'</div></div>';
-                result += '<div class="single-tweet"><div class="tweet-content"><span>@drnayakdialysis</span> '+data[1]+'</div></div>';
-                document.getElementById("tweetbox1").innerHTML = result;
-                result = '<br /><div class="single-tweet"><div class="tweet-content"><span>@drnayakdialysis</span> '+data[2]+'</div></div>';
-                result += '<div class="single-tweet"><div class="tweet-content"><span>@drnayakdialysis</span> '+data[3]+'</div></div>';
-                document.getElementById("tweetbox2").innerHTML = result;
-                result = '<br /><div class="single-tweet"><div class="tweet-content"><span>@drnayakdialysis</span> '+data[4]+'</div></div>';
-                document.getElementById("tweetbox3").innerHTML = result;
-            });
-        </script>
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>

@@ -103,32 +103,23 @@ $("#owl-partners").owlCarousel({
     pagination : false
 })
 
-// Testimonials carousel
-$("#owl-testimonial").owlCarousel({
-    singleItem : true,
-    pagination : true,
-    autoHeight : true
-})
+// // Testimonials carousel
+// $("#owl-testimonial").owlCarousel({
+//     singleItem : true,
+//     pagination : true,
+//     autoHeight : true
+// })
 
 
 ////////////////////////////////////////////////////////////////////
 // Stellar (parallax): https://github.com/markdalgleish/stellar.js
 ////////////////////////////////////////////////////////////////////
 
-$.stellar({
-    // Set scrolling to be in either one or both directions
-    horizontalScrolling: false,
-    verticalScrolling: true,
-});
-
-
-
-///////////////////////////////////////////////////////////
-// WOW animation scroll: https://github.com/matthieua/WOW
-///////////////////////////////////////////////////////////
-
-new WOW().init();
-
+// $.stellar({
+//     // Set scrolling to be in either one or both directions
+//     horizontalScrolling: false,
+//     verticalScrolling: true,
+// });
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -146,21 +137,21 @@ $('.counter').counterUp({
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
 $(window).load(function() {
-$('.portfolio_menu ul li').click(function(){
-	$('.portfolio_menu ul li').removeClass('active_prot_menu');
-	$(this).addClass('active_prot_menu');
-});
+    $('.portfolio_menu ul li').click(function(){
+    	$('.portfolio_menu ul li').removeClass('active_prot_menu');
+    	$(this).addClass('active_prot_menu');
+    });
 
-var $container = $('#portfolio');
-$container.isotope({
-  itemSelector: '.col-sm-4',
-  layoutMode: 'fitRows'
-});
-$('#filters').on( 'click', 'a', function() {
-  var filterValue = $(this).attr('data-filter');
-  $container.isotope({ filter: filterValue });
-  return false;
-});
+    var $container = $('#portfolio');
+    $container.isotope({
+      itemSelector: '.col-sm-4',
+      layoutMode: 'fitRows'
+    });
+    $('#filters').on( 'click', 'a', function() {
+      var filterValue = $(this).attr('data-filter');
+      $container.isotope({ filter: filterValue });
+      return false;
+    });
 });
 
 

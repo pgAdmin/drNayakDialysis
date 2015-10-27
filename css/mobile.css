@@ -199,6 +199,10 @@
 		background-size: contain;
 		width: 120px;
 	}
+	.panel-default{
+		margin-left: 12%;
+	}
+
 	.panel-circle{
 		height: 250px;
 		width: 250px;
@@ -207,7 +211,9 @@
 		height: 250px;
 		width: 250px;
 	}
-
+	.service-detail{
+		margin-left: 10%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -333,17 +339,15 @@
 		display: none !important;
 	}
 
-	.share-gadget{
-	    position: fixed;
-	    float: right;
-	    bottom: 0px;
-	    display: flex;
-	    right: 40%;
+	.share-social{
+	    display: flex !important;
+	    margin-left: 30%;
 	}
 	.share-icon{
 	    height: 35px;
 	    width: 35px;
     	font-size: 20px;
+	    background-color: #2D3035;
 	}
 
 	.mobile-visible{
@@ -376,14 +380,25 @@
 	}
 
 	.price-box{
+		width: 100%;
 		margin-left: 8%;
     	margin-top: 15px;
     	margin-bottom: 10px;
 	}
 
 	.mobile-price{
-	    width: 65%;
+	    /*width: 65%;*/
 	    text-align: justify;
+	}
+	.mobile-hide{
+		display: none;
+	}
+
+	.service-detail{
+		margin-left: 0%;
+	}
+	.panel-default{
+		margin-left: 0px;
 	}
 }
 

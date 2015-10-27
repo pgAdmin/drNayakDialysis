@@ -391,8 +391,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 */}
 
 .rotate-box-2.square-icon .rotate-box-icon {
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	line-height: 75px;
 	font-size: 36px;
 	border-radius: 50%;
@@ -1175,8 +1175,8 @@ p.subtitle {
 
 /* Custom CSS */
 .circles{
-	height: 300px;
-	width: 300px;
+	height: 280px;
+	width: 280px;
 }
 
 .circles-about{
@@ -1210,14 +1210,6 @@ p.subtitle {
 	font-weight: bold;
 }
 
-.list-circle{
-	list-style-type: disc; 
-}
-
-.list-circle li{
-	list-style-type: disc; 
-}
-
 .share-gadget{
     position: fixed;
     float: right;
@@ -1247,4 +1239,12 @@ p.subtitle {
 
 .ipad-show{
 	display: none;
+}
+
+.service-detail{
+	text-align: left;
+}
+
+.service-detail .fa{
+	font-size: 9px;	
 }
