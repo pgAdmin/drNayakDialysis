@@ -34,8 +34,6 @@
 
 
 
-
-
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -62,6 +60,25 @@
 		font-size: 14px;
 	}
 
+	.circles-about{
+		height: 210px;
+		width: 210px;
+	}
+	.olympic{
+		height: 210px !important;
+		width: 210px !important;
+	}
+	.panel-circle{
+		height: 210px;
+		width: 210px;
+	}
+	.panel-circle-blue{
+		height: 210px;
+		width: 210px;
+	}
+	.ipad-prod-img{
+		height: 100%;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -137,6 +154,58 @@
 	}
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
+	}
+
+	.share-gadget{
+	    position: fixed;
+	    float: right;
+	    bottom: 0px;
+	    display: flex;
+	    right: 40%;
+	}
+	.share-icon{
+	    height: 50px;
+	    width: 50px;
+    	font-size: 35px;
+	}
+
+	.ipad-hide{
+		display: none;
+	}
+	.ipad-show{
+		display: inline;
+	}
+	.ipad-prod{
+
+	}
+	.price-box{
+		width: 50%;
+		margin-top: 20px;
+	}
+	.navbar-nav li a{
+		height: 90px !important;
+		font-size: 11px;
+		margin-left: 0px;
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+	.ipad-wdth{
+		width: 80px !important;
+	}
+	.ipad-extnd-wdth{
+		width: 110px !important;
+	}
+	a.navbar-brand{
+		background-size: contain;
+		width: 120px;
+	}
+	.panel-circle{
+		height: 250px;
+		width: 250px;
+	}
+	.panel-circle-blue{
+		height: 250px;
+		width: 250px;
 	}
 
 }

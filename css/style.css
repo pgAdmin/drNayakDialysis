@@ -1244,3 +1244,7 @@ p.subtitle {
 .mobile-visible{
 	display: none;
 }
+
+.ipad-show{
+	display: none;
+}
