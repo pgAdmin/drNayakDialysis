@@ -165,7 +165,7 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr1.png"/></span>
+                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr1.jpg"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. K S Nayak</b><br />
@@ -178,7 +178,7 @@
 
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr2.png"/></span>
+                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr2.jpg"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. S V Subhramanyyam</b><br />
@@ -190,7 +190,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 ipad-hide">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.png"/></span>
+                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.jpg"/></span>
                                     <div class="rotate-box-info" style="margin-top:0px">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. Pavan K Rao</b><br />
@@ -311,90 +311,127 @@
                 <!-- Begin prices -->
                 <div class="prices text-center">
                 <h1 class="mobile-visible">Services and Packages</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="price-box col-sm-3">
-                                <div class="panel panel-default panel-circle-blue">
-                                    <img class="ipad-prod-img" src="img/s_premium.jpg" />
-                                </div>
-                                <div class="rotate-box-info mobile-price">
-                                    <h4 class="text-center">Premium Dialysis</h4>
-                                    <div>
-                                        <div class="service-detail">
-                                            Take advantage of our premium dialysis:<br>
-                                            <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
-                                            <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
-                                            <i class="fa fa-circle"></i> Free meal and diet counseling<br />
-                                            <i class="fa fa-circle"></i> Dialyzer is reused<br />
+                    <div class="rotate-box-2-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <div class="rotate-box-icon non-olympic"><img class="circles-services" src="img/s_premium.jpg"/></div>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Premium Dialysis</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    Take advantage of our premium dialysis:<br><br>
+                                                    <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
+                                                    <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
+                                                    <i class="fa fa-circle"></i> Free meal and diet counseling<br />
+                                                    <i class="fa fa-circle"></i> Dialyzer is reused<br />
+                                                </div>
+                                                <br>
+                                                <span class="btn btn-blue">INR 2500 PER SESSION</span>
+                                            </p>
                                         </div>
-                                        <br />
-                                        <span class="btn btn-blue">INR 1500 PER SESSION</span>
                                     </div>
-                                </div>                                      
+                                </div>
+
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <span class="rotate-box-icon non-olympic"><img class="circles-services" src="img/s_luxury.jpg"/></span>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Luxury Dialysis</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    Sit back and enjoy our luxury dialysis:<br><br>
+                                                    <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
+                                                    <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
+                                                    <i class="fa fa-circle"></i> Free meal and diet counseling<br />
+                                                    <i class="fa fa-circle"></i> New dialyzer for every session<br />
+                                                </div>
+                                                <br />
+                                                <span class="btn btn-blue">INR 1500 PER SESSION</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 ipad-hide">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_premium_p.jpg"/></span>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Premium Package</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                                    <i class="fa fa-circle"></i> Prepaid package<br />
+                                                    <i class="fa fa-circle"></i> Pay for 10 sessions and get 11th one free<br />
+                                                    <br>
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                <span class="btn btn-default">INR 15,000 PACKAGE</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 ipad-hide">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_luxury_p.jpg"/></span>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Luxury Package</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                                    <i class="fa fa-circle"></i> Prepaid package<br />
+                                                    <i class="fa fa-circle"></i> Pay for 14 dialysis sessions and get 3000/- off<br />
+                                                    <br>
+                                                    <br>
+                                                </div>
+                                                <br>
+                                                <span class="btn btn-default">INR 32,000 PACKAGE</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ipad-show">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_premium_p.jpg"/></span>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Premium Package</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                                    <i class="fa fa-circle"></i> Prepaid package<br />
+                                                    <i class="fa fa-circle"></i> Pay for 10 sessions and get 11th one free<br />
+                                                </div>
+                                                <br>
+                                                <span class="btn btn-default">INR 15,000 PACKAGE</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="rotate-box-2 square-icon text-center">
+                                        <div class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_luxury_p.jpg"/></div>
+                                        <div class="rotate-box-info" style="margin-top:0px">
+                                            <p style="text-align: left;font-size: 18px">
+                                                <h4 style="text-align: center"><b>Luxury Package</b></h4><br />
+                                                <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
+                                                    <i class="fa fa-circle"></i> Pay once and forget about it !<br />
+                                                    <i class="fa fa-circle"></i> Prepaid package<br />
+                                                    <i class="fa fa-circle"></i> Pay for 14 dialysis sessions and get 3000/- off<br />
+                                                </div>
+                                                <br>
+                                                <span class="btn btn-default">INR 32,000 PACKAGE</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>                                                        
                             </div>
 
-                            <div class="price-box col-sm-3" data-wow-delay="0.5s">
-                                <div class="panel panel-default panel-circle-blue">
-                                    <img class="ipad-prod-img" src="img/s_luxury.jpg" />
-                                </div>
-                                <div class="rotate-box-info mobile-price">
-                                    <h4 class="text-center">Luxury Dialysis</h4>
-                                    <div>
-                                        <div class="service-detail">
-                                            Sit back and enjoy our luxury dialysis:<br>
-                                            <i class="fa fa-circle"></i> 4 Nephrologist checkups per month<br />
-                                            <i class="fa fa-circle"></i> TV with access to all satellite HD channels<br />
-                                            <i class="fa fa-circle"></i> Free meal and diet counseling<br />
-                                            <i class="fa fa-circle"></i> New dialyzer for every session<br />
-                                        </div>
-                                        <br>
-                                        <span class="btn btn-blue">INR 2500 PER SESSION</span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="price-box col-sm-3" data-wow-delay="0.7s">
-                                <div class="panel panel-default panel-circle">
-                                    <img class="ipad-prod-img" src="img/s_premium_p.jpg" />
-                                </div>
-                                <div class="rotate-box-info mobile-price">
-                                    <h4 class="text-center">Premium Package</h4>
-                                    <div>
-                                        <div class="service-detail">
-                                            <i class="fa fa-circle"></i> Pay once and forget about it !<br />
-                                            <i class="fa fa-circle"></i> Prepaid package<br />
-                                            <i class="fa fa-circle"></i> Pay for 10 sessions and get 11th one free<br />
-                                        </div>
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <span class="btn btn-default">INR 15,000 PACKAGE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="price-box col-sm-3" data-wow-delay="0.9s">
-                                <div class="panel panel-default panel-circle">
-                                    <img class="ipad-prod-img" src="img/s_luxury_p.jpg" />
-                                </div>
-                                <div class="rotate-box-info mobile-price">
-                                    <h4 class="text-center">Luxury Package</h4>
-                                    <div>
-                                        <div class="service-detail">
-                                            <i class="fa fa-circle"></i> Pay once and forget about it !<br />
-                                            <i class="fa fa-circle"></i> Prepaid package<br />
-                                            <i class="fa fa-circle"></i> Pay for 14 dialysis sessions and get 3000/- off<br />
-                                        </div>
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <span class="btn btn-default">INR 32,000 PACKAGE</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!-- /.row -->
-                    </div> <!-- /.container -->
+                        </div> <!-- /.container -->
+                    </div>
                 </div>
                 <!-- End prices -->
                 <div class="extra-space-l"></div>

@@ -1180,13 +1180,26 @@ p.subtitle {
 }
 
 .circles-about{
+	border-radius: 50%;
 	height: 250px;
 	width: 250px;
+}
+
+.circles-services{
+	border-radius: 50%;
+	height: 240px;
+	width: 240px;
 }
 
 .olympic{
 	height: 250px !important;
 	width: 250px !important;	
+}
+
+.non-olympic{
+	height: 250px !important;
+	width: 250px !important;
+	padding-top: 5px;
 }
 
 .panel-circle{

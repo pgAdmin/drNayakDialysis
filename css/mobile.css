@@ -161,12 +161,12 @@
 	    float: right;
 	    bottom: 0px;
 	    display: flex;
-	    right: 40%;
+	    right: 45%;
 	}
 	.share-icon{
-	    height: 50px;
-	    width: 50px;
-    	font-size: 35px;
+	    height: 35px;
+	    width: 35px;
+    	font-size: 20px;
 	}
 
 	.ipad-hide{
@@ -210,9 +210,6 @@
 	.panel-circle-blue{
 		height: 250px;
 		width: 250px;
-	}
-	.service-detail{
-		margin-left: 10%;
 	}
 }
 
