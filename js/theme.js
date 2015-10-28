@@ -1,3 +1,6 @@
+// SLider
+
+
 /////////////////////////////////////////////////////////////////////
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 /////////////////////////////////////////////////////////////////////
@@ -80,56 +83,36 @@ $(window).load(function() {
 // OWL Carousel: http://owlgraphic.com/owlcarousel
 ////////////////////////////////////////////////////
 
-// Intro text carousel
-$("#owl-intro-text").owlCarousel({
-    singleItem : true,
-    autoPlay : 6000,
-    stopOnHover : true,
-    navigation : false,
-    navigationText : false,
-    pagination : true,
-    autoWidth: true
-})
-
-
-// Partner carousel
-$("#owl-partners").owlCarousel({
-    items : 4,
-    itemsDesktop : [1199,3],
-    itemsDesktopSmall : [980,2],
-    itemsTablet: [768,2],
-    autoPlay : 5000,
-    stopOnHover : true,
-    pagination : false
-})
-
-// // Testimonials carousel
-// $("#owl-testimonial").owlCarousel({
+// // Intro text carousel
+// $("#owl-intro-text").owlCarousel({
 //     singleItem : true,
+//     autoPlay : 3000,
+//     stopOnHover : true,
+//     navigation : false,
+//     navigationText : false,
 //     pagination : true,
-//     autoHeight : true
+//     autoWidth: true
 // })
-
 
 ////////////////////////////////////////////////////////////////////
 // Stellar (parallax): https://github.com/markdalgleish/stellar.js
 ////////////////////////////////////////////////////////////////////
 
-// $.stellar({
-//     // Set scrolling to be in either one or both directions
-//     horizontalScrolling: false,
-//     verticalScrolling: true,
-// });
+$.stellar({
+    // Set scrolling to be in either one or both directions
+    horizontalScrolling: false,
+    verticalScrolling: true,
+});
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 // Counter-Up (requires jQuery waypoints.js plugin): https://github.com/bfintal/Counter-Up
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-$('.counter').counterUp({
-    delay: 10,
-    time: 2000
-});
+// $('.counter').counterUp({
+//     delay: 10,
+//     time: 2000
+// });
 
 
 

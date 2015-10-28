@@ -46,8 +46,8 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.theme.css">
+		<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+		<!-- <link rel="stylesheet" href="css/owl.theme.css"> -->
 
     	<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
@@ -108,36 +108,47 @@
             </header>
             <!-- ========= END HEADER =========-->
             
-            <div class="share-gadget mobile-hide">
+            <div class="share-gadget mobile-hide ipad-hide">
                 <a href="http://facebook.com/" target="_blank"><div class="share-icon"><i class="fa fa-facebook"></i></div></a>
                 <a href="http://twitter.com/drnayakdialysis" target="_blank"><div class="share-icon"><i class="fa fa-twitter"></i></div></a>
                 <a href="http://linkedin.com/" target="_blank"><div class="share-icon"><i class="fa fa-linkedin"></i></div></a>
             </div>
 
         	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5">
-				
-				<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.8">
-
-						<div id="owl-intro-text" class="owl-carousel">
-							<div class="item" style="height:500px;background-image: url(img/home/slide-1.jpg); background-size: cover; -webkit-background-size: cover;">
+			<section id="text-carousel-intro-section" class="parallax">				
+				<div class="container" style="margin-top: 20px;">
+					<div class="caption text-center text-white">
+                        <div class="row">
+                            <div style="overflow-x: hidden;">
+                                <div id="slider" style="overflow-x: hidden;">
+                                    <figure>
+                                        <img src="img/home/slide-1.jpg" alt="">
+                                        <img src="img/home/slide-2.jpg" alt="">
+                                        <img src="img/home/slide-3.jpg" alt="">
+                                        <img src="img/home/slide-4.jpg" alt="">
+                                        <img src="img/home/slide-1.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+<!-- 						<div id="owl-intro-text" class="owl-carousel">
+							<div class="item" style="background-image: url(img/home/slide-1.jpg); background-size: cover;">
 								<h1>Dialysis with us is like no other</h1>
                                 <div class="extra-space"></div>
 							</div>
-							<div class="item" style="height:500px;background-image: url(img/home/slide-2.jpg);background-size: cover; -webkit-background-size: cover;">
+							<div class="item" style="background-image: url(img/home/slide-2.jpg);background-size: cover;">
 								<h1>Regular follow-up by Nephrologist</h1>
 								<div class="extra-space"></div>
 							</div>
-                            <div class="item" style="height:500px;background-image: url(img/home/slide-3.jpg);background-size: cover; -webkit-background-size: cover;">
+                            <div class="item" style="background-image: url(img/home/slide-3.jpg);background-size: cover;">
                                 <h1>Free dialysis diet meal with every session</h1>
                                 <div class="extra-space"></div>
                             </div>
-                            <div class="item" style="height:500px;background-image: url(img/home/slide-4.jpg);background-size: cover; -webkit-background-size: cover;">
+                            <div class="item" style="background-image: url(img/home/slide-4.jpg);background-size: cover;">
                                 <h1>Free regular diet counselling</h1>
                                 <div class="extra-space"></div>
                             </div>
-                            <div class="item" style="height:500px;background-image: url(img/home/slide-5.jpg);background-size: cover; -webkit-background-size: cover;">
+                            <div class="item" style="background-image: url(img/home/slide-5.jpg);background-size: cover;">
                                 <h1>24 X 7 Emergency care </h1>
                                 <div class="extra-space"></div>
                             </div>
@@ -554,7 +565,7 @@
                 </div>
                 
                 <div class="footer">
-                    <div class="mobile-visible share-social">
+                    <div class="mobile-visible ipad-show share-social">
                         <a href="http://facebook.com/" target="_blank"><div class="share-icon"><i class="fa fa-facebook"></i></div></a>
                         <a href="http://twitter.com/drnayakdialysis" target="_blank"><div class="share-icon"><i class="fa fa-twitter"></i></div></a>
                         <a href="http://linkedin.com/" target="_blank"><div class="share-icon"><i class="fa fa-linkedin"></i></div></a>
@@ -574,13 +585,14 @@
 
         <!-- Plugins JS -->
 		<script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.stellar.min.js"></script>
+		<!-- // <script src="js/owl.carousel.min.js"></script> -->
+        <script src="js/jquery.stellar.min.js"></script>
         <script src="js/waypoints.min.js"></script>
 		<script src="js/isotope.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
-		<script src="js/jquery.counterup.min.js"></script>
+		<!-- // <script src="js/jquery.counterup.min.js"></script> -->
 		<script src="js/smoothscroll.js"></script>
 
 		<!-- Theme JS -->

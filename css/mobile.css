@@ -64,9 +64,17 @@
 		height: 210px;
 		width: 210px;
 	}
+	.circles-services{
+		height: 210px;
+		width: 210px;
+	}
 	.olympic{
 		height: 210px !important;
 		width: 210px !important;
+	}
+	.non-olympic{
+		height: 220px !important;
+		width: 220px !important;
 	}
 	.panel-circle{
 		height: 210px;
@@ -78,6 +86,10 @@
 	}
 	.ipad-prod-img{
 		height: 100%;
+	}
+
+	.owl-item .item{
+		height: 350px !important;
 	}
 }
 
@@ -211,6 +223,18 @@
 		height: 250px;
 		width: 250px;
 	}
+
+	.share-social{
+	    display: flex !important;
+	    margin-left: 45%;
+	}
+	.share-icon{
+	    height: 35px;
+	    width: 35px;
+    	font-size: 20px;
+	    background-color: #2D3035;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -397,6 +421,13 @@
 	.panel-default{
 		margin-left: 0px;
 	}
+	.owl-item .item{
+		height: 250px !important;
+	}
+    #slider{
+    	margin: 10% auto !important;
+    	width: 100% !important;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -407,6 +438,9 @@
         width: 100%;
     }
 
+    .page{
+    	margin-top: -40%;
+    }
 }
 
 /* Custom, iPhone Retina */ 

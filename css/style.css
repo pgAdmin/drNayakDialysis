@@ -984,15 +984,20 @@ p.subtitle {
 	background: rgba(0, 0, 0, 0);
 	width: 14px;
 	height: 14px;
-	border: 3px solid #fff;
+	border: 3px solid #F58220;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	background: rgba(0, 0, 0, 0);
-	border: 3px solid #fff;
+.owl-theme .owl-controls .owl-page.active span {
+	background: #F58220;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: #F58220;
+	border: 3px solid rgba(0, 0, 0, 0);
 }
 .owl-buttons {
 	position: absolute;
@@ -1260,4 +1265,39 @@ p.subtitle {
 
 .service-detail .fa{
 	font-size: 9px;	
+}
+
+.owl-item .item{
+	height: 500px !important;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    40% { left: -100%; }
+    50% { left: -200%; }
+    65% { left: -200%; }
+    75% { left: -300%; }
+    90% { left: -300%; }
+    100% { left: -400%; }
+}
+
+div#slider {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+div#slider figure img {
+	width: 20%;
+	float: left;
+}
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 25s slidy infinite; 
 }
