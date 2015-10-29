@@ -126,7 +126,7 @@
                                         <img src="img/home/slide-2.jpg" alt="">
                                         <img src="img/home/slide-3.jpg" alt="">
                                         <img src="img/home/slide-4.jpg" alt="">
-                                        <img src="img/home/slide-1.jpg" alt="">
+                                        <img src="img/home/slide-5.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
@@ -339,7 +339,7 @@
                                                     <i class="fa fa-circle"></i> Dialyzer is reused<br />
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-blue">INR 2500 PER SESSION</span>
+                                                <span class="btn btn-blue">INR 1500 PER SESSION</span>
                                             </p>
                                         </div>
                                     </div>
@@ -359,7 +359,7 @@
                                                     <i class="fa fa-circle"></i> New dialyzer for every session<br />
                                                 </div>
                                                 <br />
-                                                <span class="btn btn-blue">INR 1500 PER SESSION</span>
+                                                <span class="btn btn-blue">INR 2500 PER SESSION</span>
                                             </p>
                                         </div>
                                     </div>
@@ -566,9 +566,9 @@
                 
                 <div class="footer">
                     <div class="mobile-visible ipad-show share-social">
-                        <a href="http://facebook.com/" target="_blank"><div class="share-icon"><i class="fa fa-facebook"></i></div></a>
-                        <a href="http://twitter.com/drnayakdialysis" target="_blank"><div class="share-icon"><i class="fa fa-twitter"></i></div></a>
-                        <a href="http://linkedin.com/" target="_blank"><div class="share-icon"><i class="fa fa-linkedin"></i></div></a>
+                        <a href="http://facebook.com/" target="_blank"><span class="share-icon"><i class="fa fa-facebook"></i></span></a>
+                        <a href="http://twitter.com/drnayakdialysis" target="_blank"><span class="share-icon"><i class="fa fa-twitter"></i></span></a>
+                        <a href="http://linkedin.com/" target="_blank"><span class="share-icon"><i class="fa fa-linkedin"></i></span></a>
                     </div>
                     <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
                         <p class="copyright">Copyright &copy; 2015 - Designed By Excelsior</p>

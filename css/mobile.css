@@ -225,8 +225,7 @@
 	}
 
 	.share-social{
-	    display: flex !important;
-	    margin-left: 45%;
+		margin: 0px auto;
 	}
 	.share-icon{
 	    height: 35px;
@@ -361,8 +360,7 @@
 	}
 
 	.share-social{
-	    display: flex !important;
-	    margin-left: 30%;
+		margin: 0px auto;
 	}
 	.share-icon{
 	    height: 35px;
@@ -428,6 +426,7 @@
     	margin: 10% auto !important;
     	width: 100% !important;
     }
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -438,12 +437,18 @@
         width: 100%;
     }
 
-    .page{
-    	margin-top: -40%;
+    #about-section{
+    	margin-top: -50%;
     }
+    #text-carousel-intro-section{
+    	margin-top: 5%;
+    }    
+
 }
 
 /* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-    
+@media only screen and (max-width : 640px) {
+    #text-carousel-intro-section{
+    	margin-top: 12%;
+    }    
 }
