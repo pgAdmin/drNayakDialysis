@@ -449,6 +449,6 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 640px) {
     #text-carousel-intro-section{
-    	margin-top: 12%;
+    	margin-top: 15%;
     }    
 }
