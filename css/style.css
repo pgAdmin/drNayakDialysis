@@ -1303,6 +1303,9 @@ p.subtitle {
 	background-image: url(../img/slides.jpg);
 	background-size: cover;
 	animation: 30s slidy infinite;
+	animation-timing-function: ease;
+	-webkit-animation: 30s slidy infinite;
+	-webkit-animation-timing-function: ease;
 }
 
 #slide-master{

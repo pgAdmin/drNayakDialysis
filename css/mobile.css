@@ -438,7 +438,9 @@
         width: 100%;
     }
 
-
+    #about-section{
+    	margin-top: -30%;
+    }
     #text-carousel-intro-section{
     	margin-top: 5%;
     }    
@@ -452,7 +454,7 @@
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 640px) {
     #text-carousel-intro-section{
-    	margin-top: 15%;
+    	margin-top: 150px;
     }    
 
 	#slide-master{
