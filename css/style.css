@@ -1272,47 +1272,122 @@ p.subtitle {
 }
 
 @keyframes slidy {
-    0% { left: 0%; }
-    16% { left: 0%; }
-    20% { left: -100%; }
-    36% { left: -100%; }
-    40% { left: -200%; }
-    56% { left: -200%; }
-    60% { left: -300%; }
-    76% { left: -300%; }
-    80% { left: -400%; }
-    96% { left: -400%; }
+    0% { background-position-x: 0%; }
+    16% { background-position-x: 0%; }
+    20% { background-position-x: 25%; }
+    36% { background-position-x: 25%; }
+    40% { background-position-x: 50%; }
+    56% { background-position-x: 50%; }
+    60% { background-position-x: 75%; }
+    76% { background-position-x: 75%; }
+    80% { background-position-x: 100%; }
+    96% { background-position-x: 100%; }
 }
 
 @-webkit-keyframes slidy {
-    0% { left: 0%; }
-    16% { left: 0%; }
-    20% { left: -100%; }
-    36% { left: -100%; }
-    40% { left: -200%; }
-    56% { left: -200%; }
-    60% { left: -300%; }
-    76% { left: -300%; }
-    80% { left: -400%; }
-    96% { left: -400%; }
+    0% { background-position-x: 0%; }
+    16% { background-position-x: 0%; }
+    20% { background-position-x: 25%; }
+    36% { background-position-x: 25%; }
+    40% { background-position-x: 50%; }
+    56% { background-position-x: 50%; }
+    60% { background-position-x: 75%; }
+    76% { background-position-x: 75%; }
+    80% { background-position-x: 100%; }
+    96% { background-position-x: 100%; }
 }
 
-div#slider {
-	overflow: hidden;
-	margin: 0 auto;
-	width: 80%;
+#slider{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/slides.jpg);
+	background-size: cover;
+	animation: 30s slidy infinite;
 }
-div#slider figure img {
-	width: 20%;
-	float: left;
+
+#slide-master{
+	height: 500px;
+	width: 900px;
+	margin: 0px auto;
 }
-div#slider figure { 
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    text-align: left;
-    font-size: 0;
-    animation: 30s slidy infinite; 
-    -webkit-animation: 30s slidy infinite;
+
+/* Doctor Sprite */
+#dr1{
+	background-position: 0% 0px;
+}
+#dr2{
+	background-position: 25% 0px;
+}
+#dr3{
+	background-position: 50% 0px;
+}
+#dr4{
+	background-position: 75% 0px;
+}
+.doctor{
+	margin: 0px auto;
+	width: 255px;
+	height: 255px;
+	border-radius: 50%;
+	border: 4px solid #f58220;
+}
+.doctor div{
+	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+	background-image: url(../img/doctors.jpg);
+    background-size: cover;
+}
+
+/* Features */
+#feat1{
+	background-position: 0% 0px;
+}
+#feat2{
+	background-position: 25% 0px;
+}
+#feat3{
+	background-position: 50% 0px;
+}
+.feature{
+	margin: 0px auto;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	border: 4px solid #f58220;
+}
+.feature div{
+	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+	background-image: url(../img/features.jpg);
+    background-size: cover;
+}
+
+/* Services */
+#pack1{
+	background-position: 0% 0px;
+}
+#pack2{
+	background-position: 25% 0px;
+}
+#pack3{
+	background-position: 50% 0px;
+}
+#pack4{
+	background-position: 75% 0px;
+}
+.service{
+	margin: 0px auto;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	border: 4px solid #f58220;
+}
+.service div{
+	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+	background-image: url(../img/services.jpg);
+    background-size: cover;
 }
