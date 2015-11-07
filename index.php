@@ -45,14 +45,11 @@
 		<!-- Libs and Plugins CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-		<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
-		<!-- <link rel="stylesheet" href="css/owl.theme.css"> -->
 
     	<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<link rel="stylesheet" href="css/responsive.css">
 
 		<!-- Skin CSS -->
         <link rel="stylesheet" media="screen" title="summer-orange" href="css/summer-orange.css">
@@ -87,7 +84,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="index.html">Dr Nayak's Dialysis</a>
+                      <a class="navbar-brand">Dr Nayak's Dialysis</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->

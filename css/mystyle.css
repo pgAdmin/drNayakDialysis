@@ -1272,29 +1272,42 @@ p.subtitle {
 }
 
 @keyframes slidy {
-    0% { background-position-x: 0%; }
-    16% { background-position-x: 0%; }
-    20% { background-position-x: 25%; }
-    36% { background-position-x: 25%; }
-    40% { background-position-x: 50%; }
-    56% { background-position-x: 50%; }
-    60% { background-position-x: 75%; }
-    76% { background-position-x: 75%; }
-    80% { background-position-x: 100%; }
-    96% { background-position-x: 100%; }
+    0% { background-position: 0% 0%; }
+    16% { background-position: 0% 0%; }
+    20% { background-position: 25% 0%; }
+    36% { background-position: 25% 0%; }
+    40% { background-position: 50% 0%; }
+    56% { background-position: 50% 0%; }
+    60% { background-position: 75% 0%; }
+    76% { background-position: 75% 0%; }
+    80% { background-position: 100% 0%; }
+    96% { background-position: 100% 0%; }
 }
 
-@-webkit-keyframes slidy {
-    0% { background-position-x: 0%; }
-    16% { background-position-x: 0%; }
-    20% { background-position-x: 25%; }
-    36% { background-position-x: 25%; }
-    40% { background-position-x: 50%; }
-    56% { background-position-x: 50%; }
-    60% { background-position-x: 75%; }
-    76% { background-position-x: 75%; }
-    80% { background-position-x: 100%; }
-    96% { background-position-x: 100%; }
+@-webkit-keyframes slidyw {
+    0% { background-position: 0% 0%; }
+    16% { background-position: 0% 0%; }
+    20% { background-position: 25% 0%; }
+    36% { background-position: 25% 0%; }
+    40% { background-position: 50% 0%; }
+    56% { background-position: 50% 0%; }
+    60% { background-position: 75% 0%; }
+    76% { background-position: 75% 0%; }
+    80% { background-position: 100% 0%; }
+    96% { background-position: 100% 0%; }
+}
+
+@-moz-keyframes slidym {
+    0% { background-position: 0% 0%; }
+    16% { background-position: 0% 0%; }
+    20% { background-position: 25% 0%; }
+    36% { background-position: 25% 0%; }
+    40% { background-position: 50% 0%; }
+    56% { background-position: 50% 0%; }
+    60% { background-position: 75% 0%; }
+    76% { background-position: 75% 0%; }
+    80% { background-position: 100% 0%; }
+    96% { background-position: 100% 0%; }
 }
 
 #slider{
@@ -1302,10 +1315,12 @@ p.subtitle {
 	height: 100%;
 	background-image: url(../img/slides.jpg);
 	background-size: cover;
+	-webkit-animation: 30s slidyw infinite;
+	-webkit-animation-timing-function: ease;
+	-moz-animation: 30s slidym infinite;
+	-moz-animation-timing-function: ease;
 	animation: 30s slidy infinite;
 	animation-timing-function: ease;
-	-webkit-animation: 30s slidy infinite;
-	-webkit-animation-timing-function: ease;
 }
 
 #slide-master{
