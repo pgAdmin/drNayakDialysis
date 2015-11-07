@@ -45,14 +45,11 @@
 		<!-- Libs and Plugins CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-		<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
-		<!-- <link rel="stylesheet" href="css/owl.theme.css"> -->
 
     	<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<link rel="stylesheet" href="css/responsive.css">
 
 		<!-- Skin CSS -->
         <link rel="stylesheet" media="screen" title="summer-orange" href="css/summer-orange.css">
@@ -87,7 +84,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="index.html">Dr Nayak's Dialysis</a>
+                      <a class="navbar-brand">Dr Nayak's Dialysis</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -119,16 +116,8 @@
 				<div class="container" style="margin-top: 20px;">
 					<div class="caption text-center text-white">
                         <div class="row">
-                            <div style="overflow-x: hidden;">
-                                <div id="slider" style="overflow-x: hidden;">
-                                    <figure>
-                                        <img src="img/home/slide-1.jpg" alt="">
-                                        <img src="img/home/slide-2.jpg" alt="">
-                                        <img src="img/home/slide-3.jpg" alt="">
-                                        <img src="img/home/slide-4.jpg" alt="">
-                                        <img src="img/home/slide-5.jpg" alt="">
-                                    </figure>
-                                </div>
+                            <div id="slide-master">
+                                <div id="slider"></div>
                             </div>
                         </div>
 <!-- 						<div id="owl-intro-text" class="owl-carousel">
@@ -176,8 +165,8 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr1.jpg"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor"><div id="dr1"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. K S Nayak</b><br />
                                             Experience: 30+ Years<br />
@@ -189,8 +178,8 @@
 
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr2.jpg"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor"><div id="dr2"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. S V Subhramanyyam</b><br />
                                             Experience: 25+ Years<br />
@@ -201,8 +190,8 @@
                             </div>
                             <div class="col-md-3 col-sm-6 ipad-hide">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.jpg"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor"><div id="dr3"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. Pavan K Rao</b><br />
                                             Experience: 7 Years<br />
@@ -213,8 +202,8 @@
                             </div>
                             <div class="col-md-3 col-sm-6 ipad-hide">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic" style="background-color: #0073bb"><img class="circles-about" src="img/dr4.png"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor" style="border: 4px solid #0073bb"><div id="dr4"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Mr. Akash Karopadi</b><br />
                                             Experience: 5 Years<br />
@@ -227,8 +216,8 @@
                         <div class="row ipad-show">
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic"><img class="circles-about" src="img/dr3.png"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor"><div id="dr3"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Dr. Pavan K Rao</b><br />
                                             Experience: 7 Years<br />
@@ -240,8 +229,8 @@
 
                             <div class="col-md-3 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center">
-                                    <span class="rotate-box-icon olympic" style="background-color: #0073bb"><img class="circles-about" src="img/dr4.png"/></span>
-                                    <div class="rotate-box-info" style="margin-top:0px">
+                                    <div class="doctor" style="border: 4px solid #0073bb"><div id="dr4"></div></div>
+                                    <div class="rotate-box-info">
                                         <p style="text-align: left;font-size: 18px">
                                             Name: <b>Mr. Akash Karopadi</b><br />
                                             Experience: 5 Years<br />
@@ -274,7 +263,7 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
-                                    <span class="rotate-box-icon"><img class="circles" src="img/circle1.png"/></span>
+                                    <div class="feature"><div id="feat1"></div></div>
                                     <div class="rotate-box-info">
                                         <h4 style="font-size: 20px">Individualized attention and followup</h4>
                                         <p style="text-align: justify">Our center is unique because we ensure timely followup of each and every patient by the Nephrologist, and Dietician. We guarantee that you will be checked up at least once a week during your dialysis session by our Nephrology team.</p>
@@ -284,7 +273,7 @@
             
                             <div class="col-md-4 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
-                                    <span class="rotate-box-icon"><img class="circles" src="img/circle2.png" /></span>
+                                    <div class="feature"><div id="feat2"></div></div>
                                     <div class="rotate-box-info">
                                         <h4 style="font-size: 20px">Homely feel and comfort</h4>
                                         <p style="text-align: justify">A dialysis session with us feels like a lazy evening at home ! Every patient enjoys a comfortable stay with us with a fitted TV with all satellite HD channels. We also offer all our patients a complimentary dietician recommended meal with every session.</p>
@@ -294,7 +283,7 @@
             
                             <div class="col-md-4 col-sm-6">
                                 <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
-                                    <span class="rotate-box-icon"><img class="circles" src="img/circle3.png" /></span>
+                                    <div class="feature"><div id="feat3"></div></div>
                                     <div class="rotate-box-info">
                                         <h4 style="font-size: 20px">State of the art equipment and methods</h4>
                                         <p style="text-align: justify">We use only the best equipment in the world for dialysis. Absolutely no compromise on quality or safety at our center. We also employ innovative methods to improve standard of care (Just ask any of our patients !).</p>
@@ -327,8 +316,8 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <div class="rotate-box-icon non-olympic"><img class="circles-services" src="img/s_premium.jpg"/></div>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service"><div id="pack1"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Premium Dialysis</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -339,7 +328,7 @@
                                                     <i class="fa fa-circle"></i> Dialyzer is reused<br />
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-blue">INR 1500 PER SESSION</span>
+                                                <span class="btn btn-default">INR 1500 PER SESSION</span>
                                             </p>
                                         </div>
                                     </div>
@@ -347,8 +336,8 @@
 
                                 <div class="col-md-3 col-sm-6">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <span class="rotate-box-icon non-olympic"><img class="circles-services" src="img/s_luxury.jpg"/></span>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service"><div id="pack2"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Luxury Dialysis</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -359,15 +348,15 @@
                                                     <i class="fa fa-circle"></i> New dialyzer for every session<br />
                                                 </div>
                                                 <br />
-                                                <span class="btn btn-blue">INR 2500 PER SESSION</span>
+                                                <span class="btn btn-default">INR 2500 PER SESSION</span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 ipad-hide">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_premium_p.jpg"/></span>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service" style="border: 4px solid #0073bb"><div id="pack3"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Premium Package</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -378,15 +367,15 @@
                                                     <br>
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-default">INR 15,000 PACKAGE</span>
+                                                <span class="btn btn-blue">INR 15,000 PACKAGE</span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 ipad-hide">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_luxury_p.jpg"/></span>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service" style="border: 4px solid #0073bb"><div id="pack4"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Luxury Package</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -397,7 +386,7 @@
                                                     <br>
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-default">INR 32,000 PACKAGE</span>
+                                                <span class="btn btn-blue">INR 32,000 PACKAGE</span>
                                             </p>
                                         </div>
                                     </div>
@@ -406,8 +395,8 @@
                             <div class="row ipad-show">
                                 <div class="col-md-3 col-sm-6">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <span class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_premium_p.jpg"/></span>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service" style="border: 4px solid #0073bb"><div id="pack3"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Premium Package</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -416,7 +405,7 @@
                                                     <i class="fa fa-circle"></i> Pay for 10 sessions and get 11th one free<br />
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-default">INR 15,000 PACKAGE</span>
+                                                <span class="btn btn-blue">INR 15,000 PACKAGE</span>
                                             </p>
                                         </div>
                                     </div>
@@ -424,8 +413,8 @@
 
                                 <div class="col-md-3 col-sm-6">
                                     <div class="rotate-box-2 square-icon text-center">
-                                        <div class="rotate-box-icon non-olympic" style="background-color: #0073bb"><img class="circles-services" src="img/s_luxury_p.jpg"/></div>
-                                        <div class="rotate-box-info" style="margin-top:0px">
+                                        <div class="service" style="border: 4px solid #0073bb"><div id="pack4"></div></div>
+                                        <div class="rotate-box-info">
                                             <p style="text-align: left;font-size: 18px">
                                                 <h4 style="text-align: center"><b>Luxury Package</b></h4><br />
                                                 <div class="service-detail" style="font-size: 14px; text-align: justify; line-height: 18px">
@@ -434,7 +423,7 @@
                                                     <i class="fa fa-circle"></i> Pay for 14 dialysis sessions and get 3000/- off<br />
                                                 </div>
                                                 <br>
-                                                <span class="btn btn-default">INR 32,000 PACKAGE</span>
+                                                <span class="btn btn-blue">INR 32,000 PACKAGE</span>
                                             </p>
                                         </div>
                                     </div>
@@ -587,12 +576,10 @@
 		<script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<!-- // <script src="js/owl.carousel.min.js"></script> -->
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/waypoints.min.js"></script>
 		<script src="js/isotope.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
-		<!-- // <script src="js/jquery.counterup.min.js"></script> -->
 		<script src="js/smoothscroll.js"></script>
 
 		<!-- Theme JS -->

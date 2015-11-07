@@ -60,22 +60,16 @@
 		font-size: 14px;
 	}
 
-	.circles-about{
-		height: 210px;
-		width: 210px;
+	.doctor{
+		width: 215px;
+		height: 215px;
 	}
-	.circles-services{
-		height: 210px;
-		width: 210px;
+
+	.service{
+		width: 215px;
+		height: 215px;
 	}
-	.olympic{
-		height: 210px !important;
-		width: 210px !important;
-	}
-	.non-olympic{
-		height: 220px !important;
-		width: 220px !important;
-	}
+
 	.panel-circle{
 		height: 210px;
 		width: 210px;
@@ -88,8 +82,10 @@
 		height: 100%;
 	}
 
-	.owl-item .item{
-		height: 350px !important;
+	#slide-master{
+		height: 500px;
+		width: 900px;
+		margin: 0px auto;
 	}
 }
 
@@ -234,6 +230,11 @@
 	    background-color: #2D3035;
 	}
 
+	#slide-master{
+		height: 420px;
+		width: 756px;
+		margin: 0px auto;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -422,11 +423,11 @@
 	.owl-item .item{
 		height: 250px !important;
 	}
-    #slider{
-    	margin: 10% auto !important;
-    	width: 100% !important;
-    }
-
+	#slide-master{
+		height: 350px;
+		width: 630px;
+		margin: 0px auto;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -438,17 +439,41 @@
     }
 
     #about-section{
-    	margin-top: -50%;
+    	margin-top: -30%;
     }
     #text-carousel-intro-section{
     	margin-top: 5%;
     }    
-
+	#slide-master{
+		height: 225px;
+		width: 405px;
+		margin: 0px auto;
+	}
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 640px) {
     #text-carousel-intro-section{
+    	margin-top: 150px;
+    }    
+
+	#slide-master{
+		height: 300px;
+		width: 540px;
+		margin: 0px auto;
+	}
+
+}
+
+@media only screen and (max-width : 360px) {
+    #text-carousel-intro-section{
     	margin-top: 15%;
     }    
+
+	#slide-master{
+		height: 200px;
+		width: 360px;
+		margin: 0px auto;
+	}
+
 }
