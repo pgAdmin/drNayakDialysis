@@ -8,7 +8,7 @@
 		<title>Dr. Nayak Dialysis Centre - Dialysis with A Difference</title>
 
         <meta name="description" content="Dr. Nayak's Dialysis Centre is a notch above the rest. Unlike other centres it is promoted by an internationally renowned nephrologist who has to his credit more than 1500 renal transplantations, till date." />
-        <meta name="keywords" content="dr. nayak, dialysis, www.drnayakdialysis.com, drnayakdialysis.com, hyderabad, healthcare, hospital, nephrology" />
+        <meta name="keywords" content="dialysis, www.drnayakdialysis.com, drnayakdialysis.com, hyderabad, healthcare, hospital, nephrology, dialysis, Renal Replacement Therapy, Hemodialysis, HD, Peritoneal Dialysis, Dialysis Center, Dialysis Clinic, Kidney Dialysis, PD, kidney, renal, kidney failure, kidney transplant, kidney therapy, ESRD, CKD, Renal Failure, Dialysis Training, Patient, South India, India, Medhipatnam, Tolichowki, Premier Hospital, Olive Hospital, Masab Tank, Dargah, Gachibowli, Golconda fort, Golkonda, Shaikpet, Manikonda, OU colony, Deccan Hospital, Deccan, Somajiguda, Diabetes, Hypertension, DM, HTN, Uremia, Urination, Urine, Bladder, Creatinine,Urea, Ultrafiltration, serum, Nephrologist, Nephro, Nephrocare, Doctor, Nayak, Doctor Nayak, Dr. Nayak, KS Nayak, Karopadi Shivanand Nayak" />
         <link rel="image_src" href="http://www.drnayakdialysis.com/img/share.jpg" />
         
         <!-- Google Plus -->
